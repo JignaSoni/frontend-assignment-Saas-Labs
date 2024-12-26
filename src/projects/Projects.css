@@ -1,0 +1,81 @@
+/* Container */
+.container {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+.controls {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+.controls label {
+    font-size: 16px;
+    font-weight: bold;
+}
+  
+.controls select {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+  
+/* Table Styles */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Header Styling */
+.custom-table th {
+    background-color: #5746aa;
+    color: white;
+    font-weight: bold;
+}
+
+/* Row Hover Effect */
+.custom-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Pagination Styles */
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination button {
+    background-color:  #5746aa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    font-size: 16px;
+    font-weight: bold;
+}
